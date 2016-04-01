@@ -5,32 +5,32 @@
 This project is to demonstraint design patterns defined from the [Gang of four Design Patterns](http://c2.com/cgi/wiki?DesignPatternsBook) book.
 
 ### Creational (CategoryCreationalPatterns)
-- AbstractFactoryPattern
-- BuilderPattern
-- FactoryMethodPattern
-- PrototypePattern
-- SingletonPattern
+- AbstractFactory
+- Builder
+- FactoryMethod
+- Prototype
+- Singleton
 
 ### Structural (CategoryStructuralPatterns)
-- AdapterPattern
-- BridgePattern
-- CompositePattern
-- DecoratorPattern
-- [FacadePattern](./Facade/)
-- FlyweightPattern
-- ProxyPattern
+- Adapter
+- Bridge
+- Composite
+- Decorator
+- [Facade](./Facade/)
+- Flyweight
+- Proxy
 
 ### Behavioral (CategoryBehavioralPatterns)
-- ChainOfResponsibilityPattern
-- CommandPattern
-- InterpreterPattern
-- IteratorPattern
-- MediatorPattern
-- MementoPattern
-- ObserverPattern
-- StatePattern
-- StrategyPattern
-- TemplateMethodPattern
-- VisitorPattern
+- ChainOfResponsibility
+- Command
+- Interpreter
+- Iterator
+- Mediator
+- Memento
+- Observer
+- State
+- Strategy
+- TemplateMethod
+- Visitor
 
 Please feel free to fork and contribute.

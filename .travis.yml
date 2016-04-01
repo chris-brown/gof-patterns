@@ -1,0 +1,8 @@
+language: csharp
+install:
+  - sudo apt-get install nunit-console
+  - nuget restore ./PatternExamples.sln
+
+script:
+  - xbuild ./PatternExamples.sln /p:Configuration=Release /p:TargetFrameworkVersion=v4.5 /toolsversion:12.0
+  - nunit-console ./FacadePattern.Tests/bin/Release/FacadePattern.Tests.dll

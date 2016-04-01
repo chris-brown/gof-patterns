@@ -8,14 +8,16 @@ This project is to demonstraint design patterns defined from the [Gang of four D
 - FactoryMethodPattern
 - PrototypePattern
 - SingletonPattern
+
 ### Structural (CategoryStructuralPatterns)
 - AdapterPattern
 - BridgePattern
 - CompositePattern
 - DecoratorPattern
-- [FacadePattern](./FacadePattern.Tests/)
+- [FacadePattern](./Facade/)
 - FlyweightPattern
 - ProxyPattern
+
 ### Behavioral (CategoryBehavioralPatterns)
 - ChainOfResponsibilityPattern
 - CommandPattern

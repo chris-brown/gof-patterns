@@ -89,6 +89,22 @@ namespace PatternExamples.Misc.CompositionOverInheritance.CompositionExample
     }
   }
 
+  public class Wheels : IWheels
+  {
+    public Wheels()
+    {
+      RearLeft = new Wheel();
+      RearRight = new Wheel();
+      FrontLeft = new Wheel();
+      FrontRight = new Wheel();
+    }
+
+    public IWheel RearLeft { get; private set; }
+    public IWheel RearRight { get; private set; }
+    public IWheel FrontLeft { get; private set; }
+    public IWheel FrontRight { get; private set; }
+  }
+
   public interface IWheel
   {
     bool IsMoving { get; }

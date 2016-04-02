@@ -39,7 +39,6 @@
   <ItemGroup>
     <Compile Include="CompositionOverInheritance\CompositionExample.cs" />
     <Compile Include="CompositionOverInheritance\InheritanceExample.cs" />
-    <Compile Include="CompositionOverInheritance\Wheels.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

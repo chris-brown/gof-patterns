@@ -17,6 +17,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{4DBFBF
 		Facade\readme.md = Facade\readme.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{E23B2B5F-1888-4E3A-8F66-7DF38879654F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternExamples.Misc", "Misc\PatternExamples.Misc\PatternExamples.Misc.csproj", "{F15B42D2-1A73-41E6-9B07-7B0CCAAA216E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternExamples.Misc.Tests", "Misc\PatternExamples.Misc.Tests\PatternExamples.Misc.Tests.csproj", "{71DFEB06-04A5-4DE7-A5DC-E754CE2DBD0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +37,14 @@ Global
 		{8398B06D-9433-4A78-841E-8F2482F5146A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8398B06D-9433-4A78-841E-8F2482F5146A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8398B06D-9433-4A78-841E-8F2482F5146A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15B42D2-1A73-41E6-9B07-7B0CCAAA216E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15B42D2-1A73-41E6-9B07-7B0CCAAA216E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15B42D2-1A73-41E6-9B07-7B0CCAAA216E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15B42D2-1A73-41E6-9B07-7B0CCAAA216E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71DFEB06-04A5-4DE7-A5DC-E754CE2DBD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71DFEB06-04A5-4DE7-A5DC-E754CE2DBD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71DFEB06-04A5-4DE7-A5DC-E754CE2DBD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71DFEB06-04A5-4DE7-A5DC-E754CE2DBD0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +52,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{904A6D40-C954-4763-B28D-9D19A667A84E} = {4DBFBFF9-42BD-4E89-8545-7AB0A5DB6C7F}
 		{8398B06D-9433-4A78-841E-8F2482F5146A} = {4DBFBFF9-42BD-4E89-8545-7AB0A5DB6C7F}
+		{F15B42D2-1A73-41E6-9B07-7B0CCAAA216E} = {E23B2B5F-1888-4E3A-8F66-7DF38879654F}
+		{71DFEB06-04A5-4DE7-A5DC-E754CE2DBD0A} = {E23B2B5F-1888-4E3A-8F66-7DF38879654F}
 	EndGlobalSection
 EndGlobal

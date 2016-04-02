@@ -1,8 +1,9 @@
 ﻿// ReSharper disable CheckNamespace
+
 namespace PatternExamples.Misc.CompositionOverInheritance.CompositionExample
 {
   /// <summary>
-  /// examples of composition
+  ///   examples of composition
   /// </summary>
   public static class CarFactory
   {
@@ -34,6 +35,7 @@ namespace PatternExamples.Misc.CompositionOverInheritance.CompositionExample
 
     public IManufacturer Manufacturer { get; private set; }
     public IWheels Wheels { get; private set; }
+
     public void Drive(double mph)
     {
       _driveChain.Rotate(mph);

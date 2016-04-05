@@ -18,10 +18,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{4DBFBF
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{B1CE0D4C-3BC4-4068-8EEB-0FEF9C0EB5C5}"
+	ProjectSection(SolutionItems) = preProject
+		Singleton\readme.md = Singleton\readme.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "Singleton\SingletonPattern\SingletonPattern.csproj", "{D9ECD7D8-F919-467E-A7BE-A3FC13DA1184}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern.Tests", "SingletonPattern.Tests\SingletonPattern.Tests.csproj", "{4E7B7631-3F91-4EEE-89F0-3B6B9DA502D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern.Tests", "Singleton\SingletonPattern.Tests\SingletonPattern.Tests.csproj", "{4E7B7631-3F91-4EEE-89F0-3B6B9DA502D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

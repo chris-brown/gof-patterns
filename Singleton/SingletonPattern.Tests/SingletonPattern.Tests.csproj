@@ -46,7 +46,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Singleton\SingletonPattern\SingletonPattern.csproj">
+    <ProjectReference Include="..\SingletonPattern\SingletonPattern.csproj">
       <Project>{d9ecd7d8-f919-467e-a7be-a3fc13da1184}</Project>
       <Name>SingletonPattern</Name>
     </ProjectReference>

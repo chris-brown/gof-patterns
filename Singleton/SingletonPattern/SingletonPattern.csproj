@@ -36,9 +36,6 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <None Include="readme.md" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="BankAccountExample.cs" />
     <Compile Include="MySettingsExample.cs" />
     <Compile Include="Teller.cs" />

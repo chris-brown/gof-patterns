@@ -9,7 +9,7 @@ This project is to demonstraint design patterns defined from the [Gang of four D
 - Builder
 - FactoryMethod
 - Prototype
-- Singleton
+- [Singleton](./Singleton/)
 
 ### Structural (CategoryStructuralPatterns)
 - Adapter

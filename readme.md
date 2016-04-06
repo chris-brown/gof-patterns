@@ -15,7 +15,7 @@ This project is to demonstraint design patterns defined from the [Gang of four D
 - Adapter
 - Bridge
 - Composite
-- Decorator
+- [Decorator](./Decorator/)
 - [Facade](./Facade/)
 - Flyweight
 - Proxy

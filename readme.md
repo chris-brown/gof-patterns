@@ -6,16 +6,16 @@ This project is to demonstraint design patterns defined from the [Gang of four D
 
 ### Creational (CategoryCreationalPatterns)
 - AbstractFactory
-- Builder
+- [Builder](./Builder)
 - FactoryMethod
 - Prototype
-- Singleton
+- [Singleton](./Singleton/)
 
 ### Structural (CategoryStructuralPatterns)
 - Adapter
 - Bridge
 - Composite
-- Decorator
+- [Decorator](./Decorator/)
 - [Facade](./Facade/)
 - Flyweight
 - Proxy
